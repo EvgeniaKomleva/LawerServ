@@ -1,0 +1,71 @@
+{% extends "index.html" %}
+
+
+{% block container %}
+    <div class="row">
+        <h2 class="center">{{ page_title }}</h2>
+    </div>
+        <br>
+    <div class="row">
+        <label class="badge badge-pill badge-warning">Статус договора {{ diff }} {{ currency }}</label>
+    </div>
+
+    <div class="row">
+        <div class="col-8">
+            <h5>Даты</h5>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Дата заключения</th>
+                        <th>Окончание договора</th>
+                        <th>Срок действия искл. права</th>
+                        <th>Срок передачи документов лицензиату</th>
+                        <th>Срок подачи документа о гос регистрации</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for order in object_list %}
+                    <tr>
+                        <td>{{ order.date_start|date }}</td>
+                        <td>{{ order.date_end|date }}</td>
+                        <td>{{ order.date_prav|date }}</td>
+                        <td>{{ order.date_doc|date }}</td>
+                        <td>{{ order.date_reg|date}}</td>
+                    </tr>
+                    {% empty %}
+                        <tr></tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="col-4">
+            <h4>Анализ сроков</h4>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Статус оплаты</th>
+                        <th>Предполагаемая дата погашения</th>
+                        <th>Обьем задолженности</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for category in category_analysis %}
+                        <tr>
+                            <td>{{ forloop.counter }}</td>
+                            <td>{{ category.category__title }}</td>
+                            <td>{{ category.total_value }} {{ currency }}</td>
+                            <td>{{ category.remaining }} {{ currency }}</td>
+                        </tr>
+                    {% empty %}
+                        <tr>
+                            <td colspan="4">No data</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            </form>
+        </div>
+    </div>
+{% endblock %}

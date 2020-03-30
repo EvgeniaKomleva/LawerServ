@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c169e007-b20b-44ce-ba98-f9ae7aaee1ba" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="dac14065-b54f-40c3-a862-8934593fa39c" />
+  <component name="ProjectId" id="1YnpNCBmsS5sUIz1OE4SDVzdK22" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zefarak\Desktop\blog-expense-app\expenses\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="my_expenses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_expenses" type="Python.DjangoServer" factoryName="Django server">
+      <module name="my_expenses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="my_expenses.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="my_expenses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c169e007-b20b-44ce-ba98-f9ae7aaee1ba" name="Default" comment="" />
+      <created>1535516654822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535516654822</updated>
+      <workItem from="1583588170978" duration="1707000" />
+      <workItem from="1583638093569" duration="2663000" />
+      <workItem from="1583644852830" duration="3915000" />
+      <workItem from="1584006946274" duration="12878000" />
+      <workItem from="1584275138298" duration="2150000" />
+      <workItem from="1584287832146" duration="16885000" />
+      <workItem from="1584442522779" duration="102000" />
+      <workItem from="1585533332383" duration="411000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584333492803">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1584333492803" />
+    <state x="527" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584015266760">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="527" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1584015266760" />
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584325357864">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1584325357864" />
+    <state x="992" y="81" key="#my_expenses" timestamp="1583588175235">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="992" y="81" key="#my_expenses/0.0.1536.864@0.0.1536.864" timestamp="1583588175235" />
+    <state x="561" y="185" key="FileChooserDialogImpl" timestamp="1584276261869">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="561" y="185" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584276261869" />
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1585533924068">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585533924068" />
+    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1585533924068">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585533924068" />
+    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1585533924068">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585533924068" />
+    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1585533924068">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585533924068" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1585533380066">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.864@0.0.1536.864" timestamp="1585533380066" />
+    <state x="555" y="152" key="SettingsEditor" timestamp="1583588185885">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="555" y="152" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1583588185885" />
+    <state x="477" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1584442524030">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="477" y="255" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1584442524030" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/expenses/templates/index.html</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
